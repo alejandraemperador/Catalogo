@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'MiFuente';
-    src: url("Font/MiFuente.ttf") format('truetype'); 
+    src: url("../Font/MiFuente.ttf") format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiFuente2';
-    src: url("Font/MiFuente2.ttf") format('truetype'); 
+    src: url("../Font/MiFuente2.ttf") format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -82,7 +82,7 @@ body {
 
 .product {
     display: flex;
-    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    align-items: flex-start; 
     justify-content: flex-start;
     gap: 80px;
     margin-top: 50px;
@@ -128,7 +128,11 @@ body {
     font-weight: bold;
     font-size: 16px;
     font-family:"Poppins", sans-serif;
-    width: 750px;
+    width: 650px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-btn1:hover {
@@ -138,9 +142,9 @@ body {
 
 /* ESTAS SON LAS TALLAS*/
 .size-options {
-    display: flex; /* Alinea los botones en una fila */
+    display: flex; 
     gap: 5px; 
-    margin-top: 10px; /* Ajusta el margen superior si es necesario */
+    margin-top: 10px; 
 }
 
 .size-options button {
@@ -169,7 +173,11 @@ body {
     font-weight: bold;
     font-size: 16px;
     font-family:"Poppins", sans-serif;
-    width: 750px;
+    width: 650px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-btn:hover {
@@ -185,7 +193,7 @@ body {
 
 .description {
     font-size: 16px;
-    width: 750px; 
+    width: 650px; 
 }
 
 .h2 {
@@ -298,7 +306,7 @@ body {
 }
 
 .social-link:hover {
-    color: #8b8b8b; /* Color al hacer hover */
+    color: #8b8b8b; 
 }
 
 .social-handle {
