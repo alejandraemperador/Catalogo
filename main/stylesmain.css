@@ -18,6 +18,9 @@
     font-style: normal;
   }
 
+html {
+    scroll-behavior: smooth;
+}
 /*ESTE ES EL NAVEGADOR*/
 
 nav {
